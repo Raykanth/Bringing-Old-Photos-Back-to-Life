@@ -5,5 +5,4 @@
 * The proposed Inpainting may be applied for removing the unwanted object from an image without affecting the background of an image. Extending the project towards the removal of blurring on the borders of coherent inpainted regions through adding extra functions or methods. In conclusion, there is no method that can inpaint all the types of distortion in images, but using learning techniques there are some promising results for each category of analyzed cases.
 
 * For training the model we used 'paris_train_original' dataset and for evaluating purpose we used 'paris_evaluation' dataset's respectively
-(As datasets are large I am not attaching them here).
-
+(As datasets are large I am not attaching them here). In our project we simulated the trainning model for only few iterations(50), where as classical machines supports only below 100 iterations. For accurate resulta we need to train the model for very large number of iterations. RESULT_2 of output is from MIT research paper in which the model is trained till 5000 iterations. 
